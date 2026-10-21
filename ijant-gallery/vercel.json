@@ -1,0 +1,11 @@
+{
+  "rewrites": [
+    { "source": "/people", "destination": "/people.html" },
+    { "source": "/people/:id(\\d+)", "destination": "/person.html" },
+    { "source": "/images", "destination": "/images.html" },
+    { "source": "/api/public/people", "destination": "/api/people" },
+    { "source": "/api/public/people/:id", "destination": "/api/people/:id" },
+    { "source": "/photo/:id", "destination": "/api/photo/:id" },
+    { "source": "/public-photo/:id", "destination": "/api/photo/:id" }
+  ]
+}
